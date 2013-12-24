@@ -1,8 +1,9 @@
 Source: hal
 Section: admin
 Priority: optional
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Uploaders: Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper (>= 8),
  cdbs,
  autotools-dev,
@@ -28,6 +29,7 @@ Standards-Version: 3.9.3
 Vcs-Svn: svn://svn.debian.org/pkg-utopia/packages/unstable/hal/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-utopia/packages/unstable/hal/
 Homepage: http://hal.freedesktop.org/
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: hal
 Architecture: any

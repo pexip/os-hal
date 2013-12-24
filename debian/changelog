@@ -1,3 +1,9 @@
+hal (0.5.14-8pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 24 Dec 2013 20:50:11 +0000
+
 hal (0.5.14-8) unstable; urgency=low
 
   * debian/patches/65-glib-single-include.patch: Starting with glib 2.32 it is
